@@ -266,7 +266,6 @@ class ChartData {
   final String time;
   final double value;
 
-  ChartData(this.value)
-      : time = DateFormat("hh':'MM':'ss").format(DateTime.now());
+  ChartData(this.value) : time = DateTime.now().toString();
 }
 
